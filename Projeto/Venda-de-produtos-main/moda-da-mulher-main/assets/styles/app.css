@@ -1,0 +1,59 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+
+@font-face {
+    font-family: 'Abel';
+    src: url('../fonts/abel/Abel-Regular.ttf');
+}
+
+:root { 
+    --cor-primaria: #ffd900;
+    --cor-secundaria: #000000;
+}
+.slideshow .carousel-inner img {
+  height: 300px;     /* Ajuste o tamanho que quiser */
+  width: 100%;
+  object-fit: cover;  /* Não distorce a imagem */
+  object-position: center; /* Centraliza o corte */
+}
+
+
+.bg-cor-primaria {
+    background-color: var(--cor-primaria);
+}
+
+.bg-cor-secundaria {
+    background-color: var(--cor-secundaria);
+}
+
+body {
+    font-family: 'Abel', Arial, sans-serif;
+    background-color: #000000;
+}
+
+header {
+    site-search {
+        .btn {
+            right: 50px;
+            z-index: 9;
+        }
+    }
+}
+
+.container{
+    color: #ffd900;
+}
+
+.btn{
+    color: #000000;
+    background-color: #ffd900;
+    
+}
+
+.nav-link{
+    color: #000000;
+}
+
+.escolhasprodutos{
+    color: #ffd900;
+}
+
